@@ -1,0 +1,7 @@
+{
+    "epochs": 100,
+    "batch_size": 2,
+    "step_size": 70,
+    "amp": false,
+    "device": "cuda"
+}

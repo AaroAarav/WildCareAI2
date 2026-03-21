@@ -1,0 +1,4 @@
+PyTorch Version: 2.6.0+cu124
+CUDA Available:  True
+GPU Model:       NVIDIA GeForce RTX 4050 Laptop GPU
+VRAM (MB):       6140

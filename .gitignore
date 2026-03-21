@@ -1,0 +1,18 @@
+# Environments
+venv/
+__pycache__/
+
+# Datasets and Images
+dataset/
+datasets/
+raw/
+cleaned/
+coco_annotations/
+
+# Model Weights and Heavy Training Logs
+checkpoints/
+runs/
+*.pt
+
+# Large Prediction Files (We keep the CSVs and graphs in results/ but ignore heavy JSONs)
+results/predictions_*.json

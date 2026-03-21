@@ -1,0 +1,22 @@
+{
+    "buffalo": 0,
+    "elephant": 1,
+    "rhino": 2,
+    "zebra": 3,
+    "lion": 4,
+    "leopard": 5,
+    "giraffe": 6,
+    "hippopotamus": 7,
+    "cheetah": 8,
+    "crocodile": 9,
+    "gorilla": 10,
+    "bear": 11,
+    "wolf": 12,
+    "tiger": 13,
+    "fox": 14,
+    "deer": 15,
+    "horse": 16,
+    "sheep": 17,
+    "cow": 18,
+    "dog": 19
+}

@@ -1,0 +1,7 @@
+=== DATASET INSPECTION REPORT ===
+
+African Wildlife Images: 1504
+African Wildlife Labels: 1505
+Format Detected: YOLO (.txt)
+
+WARNING: Kaggle directory 'raw/kaggle_animals' not found. Please ensure it is unzipped.

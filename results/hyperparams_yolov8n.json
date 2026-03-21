@@ -1,0 +1,22 @@
+{
+    "epochs": 100,
+    "imgsz": 640,
+    "batch": 4,
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "weight_decay": 0.0005,
+    "cos_lr": true,
+    "warmup_epochs": 3,
+    "seed": 42,
+    "mosaic": 1.0,
+    "mixup": 0.1,
+    "flipud": 0.0,
+    "fliplr": 0.5,
+    "hsv_h": 0.015,
+    "hsv_s": 0.7,
+    "hsv_v": 0.4,
+    "device": 0,
+    "amp": true,
+    "cache": false,
+    "workers": 2
+}
