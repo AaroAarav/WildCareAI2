@@ -21,6 +21,30 @@ It is designed to be highly reproducible and includes memory optimizations (like
 - **CUDA**: 11.8+ (for GPU acceleration)
 - **PyTorch**: Compatible with your CUDA version
 
+## 📊 Dataset
+
+The pipeline uses a custom curated dataset focusing on 4 wildlife classes:
+- `buffalo`
+- `elephant`
+- `rhino`
+- `zebra`
+
+The data preparation steps (`step1` through `step5`) handle downloading raw annotations, mapping synonymous labels (e.g., "african elephant" -> "elephant"), filtering out minority classes, balancing the class distribution, and creating a standard Train/Val/Test split in YOLO format.
+
+## 📈 Results (Evaluation)
+
+The models were evaluated on the test set using standard COCO metrics. Here is a summary of the **mAP@50** (Mean Average Precision at IoU 0.50) scores achieved:
+
+| Model | Overall mAP@50 | Buffalo | Elephant | Rhino | Zebra |
+|-------|----------------|---------|----------|-------|-------|
+| **YOLOv8m** | **90.4%** | 80.5% | 95.4% | 97.9% | 87.8% |
+| **Faster R-CNN** | **90.0%** | 79.5% | 89.2% | **99.1%** | **92.2%** |
+| **YOLOv8n** | **88.5%** | 78.3% | 91.6% | 95.9% | 88.2% |
+| **DETR** | **85.8%** | 76.5% | 86.3% | 94.2% | 86.0% |
+| **EfficientDet** | **84.9%** | 76.7% | 86.2% | 96.7% | 79.8% |
+
+*(Detailed metrics including AP at different scales and AR can be found in the `results/` directory post-evaluation.)*
+
 ## 🚀 Installation
 
 1. **Clone the repository:**
