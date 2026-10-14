@@ -193,9 +193,9 @@ def evaluate_model(model_name, coco_gt):
         return None, None
 
 def plot_bar_chart(df):
-    plt.figure(figsize=(10, 6), facecolor='#F7F9FC')
+    plt.figure(figsize=(10, 6), facecolor="#FFFFFF")
     ax = plt.gca()
-    ax.set_facecolor('#F7F9FC')
+    ax.set_facecolor("#FFFFFF")
     
     x = np.arange(len(df['model']))
     width = 0.35
